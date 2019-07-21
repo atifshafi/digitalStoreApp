@@ -77,6 +77,9 @@ class ItemList(Resource):
         connection = sqlite3.connect('data.db')
         cursor = connection.cursor()
 
+        create_table = "CREATE TABLE IF NOT EXISTS items (name text PRIMARY KEY, price real)"
+        cursor.execute(create_table)
+
         query = "SELECT * FROM items"
         result = cursor.execute(query)
         items = []
