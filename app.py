@@ -7,7 +7,6 @@ from resources.user import UserRegister
 from resources.item import Item, ItemList
 
 app = Flask(__name__)
-# app.config['PROPAGATE_EXCEPTIONS'] = True
 app.secret_key = 'atif'
 api = Api(app)
 
