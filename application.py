@@ -6,7 +6,7 @@ from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, ItemList
 
-app = Flask(__name__)
+application = app = Flask(__name__)
 app.secret_key = 'atif'
 api = Api(app)
 
@@ -17,4 +17,4 @@ api.add_resource(ItemList, '/items')
 api.add_resource(UserRegister, '/register')
 
 if __name__ == '__main__':
-    app.run(debug=True)  # important to mention debug=True
+    app.run(debug=True)
