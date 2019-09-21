@@ -4,11 +4,11 @@ This app for anyone who needs a tool to manage an online store. It supports mult
 
 A user can create, edit or delete items for a store and register multiple users who can access the DB. 
 
-### Setup
+## Setup
 
-Please 
+Please run the requirements.txt file.
 
-### Usage
+## Usage
 
 There are 4 endpoints to interact with.
 
@@ -34,7 +34,7 @@ This endpoint with PUT request updates an existing item in the list.
 
 **POST /register**
 
-This endpoint adds a new user to the DB
+This endpoint adds a new user to the DB.
 
 **POST /auth**
 
