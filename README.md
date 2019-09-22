@@ -26,7 +26,7 @@ Add "Authorization" as a key and "JWT XXX", where "XXX" is the access token, as 
 
 This endpoint with POST request adds a new item (<*name>*) on the DB.
 
-Use the following JSON body as example:
+Use the following JSON body as an example:
 
     {
 	"price":15.99
@@ -40,7 +40,7 @@ This endpoint with DEL request deletes an item (<*name>*) from the DB.
 
 This endpoint with PUT request updates an existing item in the list.
 
-Use the following JSON body as example:
+Use the following JSON body as an example:
 
     {
 	"price":15.99
@@ -50,7 +50,7 @@ Use the following JSON body as example:
 
 This endpoint adds a new user to the DB.
 
-Use the following JSON body as example:
+Use the following JSON body as an example:
 
     {   
 	"username":"atifshafi",
@@ -61,7 +61,7 @@ Use the following JSON body as example:
 
 This endpoint returns JWT authentication token required for certain requests. 
 
-Use the following JSON body as example:
+Use the following JSON body as an example:
 
     {   
 	"username":"atifshafi",
